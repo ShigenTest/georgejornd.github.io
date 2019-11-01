@@ -4,10 +4,17 @@
 			font-weight: 900;
 		}
 
-		body
-		{
-			background-color: white;
+		html, body {
+		  height: 150%;
 		}
+
+		body
+        {
+            background: linear-gradient(to top, #cccccc, white);
+            height: 100%;
+        }
+
+
 		#top
 		{
 			position: absolute;
@@ -231,7 +238,11 @@
 	    	font-size: 10px;
 	    }
 
-		
+	    #title_prog
+	    {
+	    	background-color: white;
+	    }
+
 		@media (min-width: 0px) and (max-width: 500px)
 		{
 			.news

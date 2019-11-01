@@ -5,11 +5,15 @@
 			font-weight: 900;
 		}
 
+		html, body {
+		  height: 150%;
+		}
 
 		body
-		{
-			background-color: white;
-		}
+        {
+            background: linear-gradient(to top, #cccccc, white);
+            height: 100%;
+        }
 		#top
 		{
 			position: absolute;

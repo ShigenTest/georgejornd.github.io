@@ -1,0 +1,273 @@
+
+		@import url("https://fonts.google.com/specimen/Montserrat+Alternates");
+		*{
+			font-family: "Montserrat Alternates";
+			font-weight: 900;
+		}
+
+	 	html, body
+        {
+            background-color: #e6e6e6;
+        }
+
+		#top
+		{
+			position: absolute;
+			margin-top: -2%;
+			height: 14%;
+			width: 100%;
+			border-radius: 7px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#all
+		{
+			position: absolute;
+			margin-right: 1%;
+			margin-left: 2%;
+			height: 150%;
+			width: 73%;
+			margin-top: 7%;
+			border-radius: 4px;
+		}
+
+		#li_top
+		{
+			position: absolute;
+			font-size: 40px;
+			padding: 1%;
+			padding-left: 1%;
+			padding-right: 10%;
+			color: black;
+			text-decoration: none;
+			background-color: white;
+			margin-top: 6%;
+		}
+
+		#rigth_buttom
+		{
+			position: absolute;
+			background-color: white;
+			margin-right: 1%;
+			margin-left: 77%;
+			height: 27%;
+			width: 22%;
+			margin-top: 40.5%;
+			border-radius: 4px;
+		}
+
+		#hr_1
+		{
+			  margin-bottom: 1rem;
+			  border: 0;
+			  border-top: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		#search
+		{
+			position: absolute;
+			margin-top: 2%;
+			margin-left: 40%;
+			width: 280px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#search_1
+		{
+			position: absolute;
+			padding-top: 5%;
+			margin-left: 63%;
+			width: 65px;
+		}
+
+		#search_1:hover
+		{
+			padding-top: 6%;
+			transition: 0.5s;
+		}
+
+		#search_1:not(:hover)
+		{
+			transition: 0.2s;
+		}
+
+		#prog
+		{
+			position: absolute;
+			margin-top: 37%;
+			width: 44.5%;
+			margin-left: 53%;
+			margin-bottom: 2%;
+			margin-right: 10%;
+		}
+
+
+		#will
+		{
+			background-color: white;
+			position: absolute;
+			margin-top: 8%;
+			margin-left: 55%;
+			margin-right: 20%;
+			margin-bottom: 5%;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#more:hover
+		{
+			color: black;
+			transition: 0.3s;
+		}
+		#more:not(:hover)
+		{
+			transition: 0.5s;
+		}
+
+		#pepe
+		{
+			position: absolute;
+			width: 20px;
+			margin-top: 40px;
+			margin-left: 50px;
+		}
+
+		#li_top:after 
+		{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    bottom: -19px;
+		    left: 20;
+		    width: 2%;
+		    height: 4px;
+		    background-color: #737373;
+		    transition: width 0.5s;
+	    }
+
+	    #li_top:hover:after 
+	    {
+	    	width: 42%;
+	    }
+
+	    #news_aga
+	    {
+	    	position: absolute;
+	    	margin-top: 8%;
+	    	margin-left: 14%;
+			padding: 0.2%;
+		    background: #f0f0f0;
+		    border: 0px solid #666;
+		    height: 80%;
+	    }
+
+	    #news_l
+	    {
+	    	position: absolute;
+	    	margin-top: 12%;
+	    	margin-left: 2%;
+	    	width: 50%;
+	    }
+
+	    #news
+	    {
+	    	position: absolute;
+	    	margin-top: 8%;
+	    	margin-left: 2%;
+	    	width: 50%;
+	    }
+
+	    #news_q
+	    {
+	    	position: absolute;
+	    	margin-top: 5.4%;
+	    	margin-left: 81%;
+	    	height: 53.5%;
+	    }
+
+	    #news_w
+	    {
+	    	position: absolute;
+	    	margin-top: 16%;
+	    	margin-left: 2%;
+	    	width: 50%;
+	    }
+
+	    #more_a:hover
+	    {
+	    	color: black;
+	    	transition: 0.9s;
+	    	text-decoration: none;
+	    }
+
+	    #more_a:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #more_a:hover
+	    {
+	    	color: black;
+	    	transition: 0.9s;
+	    }
+
+	    #more_a:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #button_1:hover
+	    {
+	    	color: black;
+	    	transition: 0.5s;
+	    }
+
+	    #button_1:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #Q
+	    {
+	    	position: absolute;
+	    	margin-top: 55%;
+	    	font-size: 10px;
+	    }
+
+	    #prog_1
+	    {
+	    	position: absolute;
+			margin-top: 35%;
+			width: 50%;
+			margin-left: 2%;
+			margin-bottom: 2%;
+			margin-right: 10%;
+	    }
+
+	    #news_aga_1
+	    {
+	    	position: absolute;
+	    	margin-top: 35%;
+	    	margin-left: 53%;
+			padding: 0.2%;
+		    background: #f0f0f0;
+		    border: 0px solid #666;
+		    height: 22.5%;
+	    }
+
+	    #about
+	    {
+	    	position: absolute;
+	    	background: #e6e6e6;
+	    	margin-top: 55%;
+	    	margin-left: 5%;
+	    }
+
+
+
+
+
+
+
+
+
+
