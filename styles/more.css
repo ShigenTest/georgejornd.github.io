@@ -263,6 +263,68 @@
 	    }
 
 
+		@media (min-width: 0px) and (max-width: 500px)
+		{
+			#news_aga
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 25%; 
+				height: 33%;
+			}
+
+			#about
+			{
+				position: absolute;
+				margin-top: 350px;
+			}
+		}
+
+		@media (min-width: 500px) and (max-width: 1000px)
+		{
+			#news_aga
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 15%; 
+				height: 30%;
+			}
+
+			#about
+			{
+				position: absolute;
+				margin-top: 900px;
+			}
+		}
+
+		@media (min-width: 500px) and (max-width: 1000px)
+		{
+			#news_aga
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 15%; 
+				height: 58%;
+			}
+
+			#about
+			{
+				position: absolute;
+				margin-top: 560px;
+			}
+		}
+		
+		
+
+
+
+
+
+
+
+
+
+
 
 
 
