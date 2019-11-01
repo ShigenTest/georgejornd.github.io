@@ -1,0 +1,852 @@
+@import url("https://fonts.google.com/specimen/Montserrat+Alternates");
+		*{
+			font-family: "Montserrat Alternates";
+			font-weight: 900;
+		}
+
+		body
+		{
+			background-color: white;
+		}
+		#top
+		{
+			position: absolute;
+			margin-top: -2%;
+			height: 14%;
+			width: 100%;
+			border-radius: 7px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#all
+		{
+			position: absolute;
+			margin-right: 1%;
+			margin-left: 2%;
+			height: 150%;
+			width: 73%;
+			margin-top: 7%;
+			border-radius: 4px;
+		}
+
+		#li_top
+		{
+			position: absolute;
+			font-size: 40px;
+			padding: 1%;
+			padding-left: 1%;
+			padding-right: 10%;
+			color: black;
+			text-decoration: none;
+			background-color: white;
+			margin-top: 6%;
+		}
+
+		#rigth_buttom
+		{
+			position: absolute;
+			background-color: white;
+			margin-right: 1%;
+			margin-left: 77%;
+			height: 27%;
+			width: 22%;
+			margin-top: 40.5%;
+			border-radius: 4px;
+		}
+
+		#hr_1
+		{
+			  margin-bottom: 1rem;
+			  border: 0;
+			  border-top: 1px solid rgba(0, 0, 0, 0.1);
+		}
+
+		#search
+		{
+			position: absolute;
+			margin-top: 2%;
+			margin-left: 40%;
+			width: 280px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#search_1
+		{
+			position: absolute;
+			padding-top: 5%;
+			margin-left: 63%;
+			width: 65px;
+		}
+
+		#search_1:hover
+		{
+			padding-top: 6%;
+			transition: 0.5s;
+		}
+
+		#search_1:not(:hover)
+		{
+			transition: 0.2s;
+		}
+
+		#prog
+		{
+			position: absolute;
+			margin-top: 8%;
+			width: 50%;
+			margin-left: 2%;
+			margin-bottom: 2%;
+			margin-right: 10%;
+		}
+
+
+		#will
+		{
+			background-color: white;
+			position: absolute;
+			margin-top: 8%;
+			margin-left: 55%;
+			margin-right: 20%;
+			margin-bottom: 5%;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#more:hover
+		{
+			color: black;
+			transition: 0.3s;
+		}
+		#more:not(:hover)
+		{
+			transition: 0.5s;
+		}
+
+		#pepe
+		{
+			position: absolute;
+			width: 20px;
+			margin-top: 40px;
+			margin-left: 50px;
+		}
+
+		#li_top:after 
+		{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    bottom: -19px;
+		    left: 20;
+		    width: 2%;
+		    height: 4px;
+		    background-color: #737373;
+		    transition: width 0.5s;
+	    }
+
+	    #li_top:hover:after 
+	    {
+	    	width: 42%;
+	    }
+
+	    #news_aga
+	    {
+	    	position: absolute;
+	    	margin-top: 8%;
+	    	margin-left: 53%;
+			padding: 0.2%;
+		    background: #f0f0f0;
+		    border: 0px solid #666;
+		    height: 50%;
+	    }
+
+	    #news_l
+	    {
+	    	position: absolute;
+	    	margin-top: 38%;
+	    	margin-left: 2%;
+	    	width: 75%;
+	    }
+
+	    #news
+	    {
+	    	position: absolute;
+	    	margin-top: 38%;
+	    	margin-left: 2%;
+	    	width: 75%;
+	    }
+
+	    #news_q
+	    {
+	    	position: absolute;
+	    	margin-top: 5.4%;
+	    	margin-left: 81%;
+	    	height: 53.5%;
+	    }
+
+	    #news_w
+	    {
+	    	position: absolute;
+	    	margin-top: 38%;
+	    	margin-left: 2%;
+	    	width: 93%;
+	    }
+
+	    #more_a:hover
+	    {
+	    	color: black;
+	    	transition: 0.9s;
+	    	text-decoration: none;
+	    }
+
+	    #more_a:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #more_a:hover
+	    {
+	    	color: black;
+	    	transition: 0.9s;
+	    }
+
+	    #more_a:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #button_1:hover
+	    {
+	    	color: black;
+	    	transition: 0.5s;
+	    }
+
+	    #button_1:not(:hover)
+	    {
+	    	transition: 0.5s;
+	    }
+
+	    #Q
+	    {
+	    	position: absolute;
+	    	margin-top: 55%;
+	    	font-size: 10px;
+	    }
+
+		
+		@media (min-width: 0px) and (max-width: 500px)
+		{
+			.news
+			{
+				position: relative;
+				margin-top: 50%;
+			}
+
+			#top
+			{
+				margin-top: -50%;
+				height: 10%;
+			}
+			#name
+			{
+				position: absolute;
+				margin-left: -5%;
+				margin-top: -4%;
+			}
+			#search
+			{
+				position: absolute;
+				margin-top: 400px;
+			}
+			#news_aga
+			{
+				position: absolute;
+				margin-top: -31%;
+				margin-left: 4.5%;
+				width: 90%;
+			}
+
+			#news_1
+			{
+				position: absolute;
+				margin-left: 50px;
+			}
+			#prog_1
+			{
+				position: absolute;
+				margin-left: 115px;
+				margin-top: -40px;
+			}
+
+			#navbarDropdown
+			{
+				position: absolute;
+				margin-left: 205px;
+				margin-top: -40px;
+			}
+
+			#more_r
+			{
+				margin-top: -58px;
+				margin-left: 65%;
+				font-size: 10px;
+			}
+
+			#button_2
+			{
+				margin-left: 92%;
+				margin-top: -3%;		
+			}
+
+			#prog
+			{
+				position: absolute;
+				margin-top: 20%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 120%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 165%;
+				margin-left: 51.5%;
+				height: 83%;
+				width: 50%;
+			}
+
+			#Q
+			{
+				margin-top: 300%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 165%;
+				width: 45%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 138.5%;
+				margin-left: 5%;
+				width: 90%;
+				height: 80%;
+			}
+
+			#search
+			{
+				margin-top: -60px;
+				margin-left: 10%;
+				width: 43.5%;
+				height: 30%;
+				transition: 1s;
+			}
+		}
+
+
+			@media (min-width: 0px) and (max-width: 600px)
+		{
+		
+			#top
+			{
+				margin-top: -50%;
+				height: 10%;
+			}
+			#name
+			{
+				position: absolute;
+				margin-left: -5%;
+				margin-top: -4%;
+			}
+			#search
+			{
+				position: absolute;
+				margin-top: -100%;
+			}
+			#news_aga
+			{
+				position: absolute;
+				margin-top: -31%;
+				margin-left: 4.5%;
+				width: 90%;
+			}
+
+			#news_1
+			{
+				position: absolute;
+				margin-left: 50px;
+			}
+			#prog_1
+			{
+				position: absolute;
+				margin-left: 115px;
+			}
+
+			#navbarDropdown
+			{
+				position: absolute;
+				margin-left: 205px;
+				margin-top: -40px;
+			}
+
+			#more_r
+			{
+				margin-top: -58px;
+				margin-left: 65%;
+				font-size: 10px;
+			}
+
+			#button_2
+			{
+				margin-left: 92%;
+				margin-top: -3%;		
+			}
+
+			#prog
+			{
+				position: absolute;
+				margin-top: 22%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 140%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 220%;
+				margin-left: 51.5%;
+				height: 100%;
+				width: 30%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 210%;
+				width: 45%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 165%;
+				margin-left: 5%;
+				width: 90%;
+				height: 94%;
+			}
+
+			#search
+			{
+				margin-top: -60px;
+				margin-left: 90px;
+				width: 43.5%;
+				height: 30%;
+				transition: 1s;
+			}
+		}
+
+		@media (min-width: 300px) and (max-width: 400px)
+		{
+			#prog
+			{
+				position: absolute;
+				margin-top: 25%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 153%;
+				margin-left: 5%;
+				width: 90%;
+			}
+			#news_q
+			{
+				position: absolute;
+				margin-top: 312%;
+				margin-left: 5%;
+				height: 100%;
+				width: 100%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 222%;
+				width: 90%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 178%;
+				margin-left: 5%;
+				width: 90%;
+			}
+		}
+
+
+		@media (min-width: 400px) and (max-width: 800px)
+		{
+			#prog
+			{
+				position: absolute;
+				margin-top: 22%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 120%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 195%;
+				margin-left: 51.5%;
+				height: 100%;
+				width: 30%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 178%;
+				width: 45%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 138%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+		}
+
+		@media (min-width: 300px) and (max-width: 350px)
+		{
+			#prog
+			{
+				position: absolute;
+				margin-top: 33%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 190%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 383%;
+				margin-left: 5%;
+				height: 100%;
+				width: 100%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 275%;
+				width: 90%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 225%;
+				margin-left: 5%;
+				width: 90%;
+			}
+		}
+
+
+@media (min-width: 600px) and (max-width: 992px)
+	{
+		#top
+		{
+			position: absolute;
+			margin-top: -2%;
+			height: 14%;
+			width: 100%;
+			border-radius: 7px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#search
+		{
+			position: absolute;
+			margin-top: 2%;
+			margin-left: 40%;
+			width: 280px;
+			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+		}
+
+		#search_1
+		{
+			position: absolute;
+			padding-top: 5%;
+			margin-left: 63%;
+			width: 65px;
+		}
+
+		#prog
+		{
+			position: absolute;
+			margin-top: 13%;
+			width: 50%;
+			margin-left: 2%;
+			margin-bottom: 2%;
+			margin-right: 10%;
+		}
+
+		#more:hover
+		{
+			color: black;
+			transition: 0.3s;
+		}
+		#more:not(:hover)
+		{
+			transition: 0.5s;
+		}
+
+		#pepe
+		{
+			position: absolute;
+			width: 20px;
+			margin-top: 40px;
+			margin-left: 50px;
+		}
+
+		#li_top:after 
+		{
+		    content: '';
+		    display: block;
+		    position: absolute;
+		    bottom: -19px;
+		    left: 20;
+		    width: 2%;
+		    height: 4px;
+		    background-color: #737373;
+		    transition: width 0.5s;
+	    }
+
+	    #li_top:hover:after 
+	    {
+	    	width: 42%;
+	    }
+
+	    #news_aga
+	    {
+	    	position: absolute;
+	    	margin-top: 25%;
+	    	margin-left: 53%;
+			padding: 0.2%;
+		    background: #f0f0f0;
+		    border: 0px solid #666;
+		    height: 31.5%;
+	    }
+
+	    #news_l
+	    {
+	    	position: absolute;
+	    	margin-top: 70%;
+	    	margin-left: 2%;
+	    	width: 75%;
+	    }
+
+	    #news
+	    {
+	    	position: absolute;
+	    	margin-top: 66%;
+	    	margin-left: 2%;
+	    	width: 75%;
+	    }
+
+	    #news_q
+	    {
+	    	position: absolute;
+	    	margin-top: 20%;
+	    	margin-left: 77.5%;
+	    	height: 53.5%;
+	    }
+
+	    #news_w
+	    {
+	    	position: absolute;
+	    	margin-top: 74%;
+	    	margin-left: 2%;
+	    	width: 93%;
+	    }
+
+	    #Q
+	    {
+	    	position: absolute;
+	    	margin-top: 110%;
+	    	font-size: 10px;
+	    }
+
+
+	    #news_1
+		{
+			position: absolute;
+			margin-left: 50px;			
+		}
+
+		#prog_1
+		{
+			position: absolute;
+			margin-left: 115px;
+			margin-top: -50px;
+		}
+
+		#navbarDropdown
+		{
+			position: absolute;
+			margin-left: 205px;
+			margin-top: 230%;
+		}
+	}
+
+	@media (min-width: 500px) and (max-width: 650px)
+	{
+			#prog
+			{
+				position: absolute;
+				margin-top: 73%;
+				margin-left: 6%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 129%;
+				margin-left: 6%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 188%;
+				margin-left: 6%;
+				width: 100%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 6%;
+				margin-top: 145%;
+				width: 90%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 135%;
+				margin-left: 6%;
+				width: 90%;
+			}
+
+			#news_aga
+			{
+				position: absolute;
+				margin-left: 8.4%;
+				margin-top: 17%;
+				height: 45%;
+			}
+
+		    #news_1
+			{
+				position: absolute;
+				margin-left: 45px;			
+			}
+
+			#prog_1
+			{
+				position: absolute;
+				margin-left: 107px;
+				margin-top: -40px;
+			}
+
+			#navbarDropdown
+			{
+				position: absolute;
+				margin-left: 600%;
+				margin-top: -140%;
+			}
+
+			#search
+			{
+				position: absolute;
+				margin-top: -7%;
+			}
+
+			#name
+			{
+				position: absolute;
+				margin-left: -3%;
+				margin-top: -3%;
+			}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
