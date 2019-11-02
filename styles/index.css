@@ -5,7 +5,7 @@
 		}
 
 		html, body {
-		 height: 1200px;
+		  height: 150%;
 		}
 
 		body
@@ -243,12 +243,21 @@
 	    	background-color: white;
 	    }
 
+	    #test
+	    {
+	    	margin-top: -100px;
+	    }
+
+	    .card
+	    {
+	    	position: absolute;
+	    	margin-top: 7%;
+	    	margin-left: 3%;
+	    	margin-right: 3%;
+	    }
+
 		@media (min-width: 0px) and (max-width: 500px)
 		{
-
-
-
-
 			.news
 			{
 				position: relative;
@@ -391,7 +400,7 @@
 			#news_aga
 			{
 				position: absolute;
-				margin-top: -90px;
+				margin-top: -31%;
 				margin-left: 4.5%;
 				width: 90%;
 			}
@@ -430,7 +439,7 @@
 			#prog
 			{
 				position: absolute;
-				margin-top: 150px;
+				margin-top: 22%;
 				margin-left: 5%;
 				width: 90%;
 			}
@@ -479,7 +488,94 @@
 			}
 		}
 
-	
+		@media (min-width: 300px) and (max-width: 400px)
+		{
+			#prog
+			{
+				position: absolute;
+				margin-top: 25%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 153%;
+				margin-left: 5%;
+				width: 90%;
+			}
+			#news_q
+			{
+				position: absolute;
+				margin-top: 312%;
+				margin-left: 5%;
+				height: 100%;
+				width: 100%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 222%;
+				width: 90%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 178%;
+				margin-left: 5%;
+				width: 90%;
+			}
+		}
+
+
+		@media (min-width: 400px) and (max-width: 800px)
+		{
+			#prog
+			{
+				position: absolute;
+				margin-top: 22%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news
+			{
+				position: absolute;
+				margin-top: 120%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+			#news_q
+			{
+				position: absolute;
+				margin-top: 195%;
+				margin-left: 51.5%;
+				height: 100%;
+				width: 30%;
+			}
+
+			#news_w
+			{
+				position: absolute;
+				margin-left: 5%;
+				margin-top: 178%;
+				width: 45%;
+			}
+
+			#news_l
+			{
+				position: absolute;
+				margin-top: 138%;
+				margin-left: 5%;
+				width: 90%;
+			}
+
+		}
 
 		@media (min-width: 300px) and (max-width: 350px)
 		{

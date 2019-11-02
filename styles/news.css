@@ -6,7 +6,7 @@
 		}
 
 		html, body {
-		  height: 1200px;
+		  height: 150%;
 		}
 
 		body
@@ -258,6 +258,17 @@
 		    height: 22.5%;
 	    }
 
+	    #test
+	    {
+	    	margin-top: -100px;
+	    }
+
+	    .card
+	    {
+	    	margin-top: 7%;
+	    	margin-left: 3%;
+	    	margin-right: 3%;
+	    }
 		
 		@media (min-width: 0px) and (max-width: 420px)
 		{

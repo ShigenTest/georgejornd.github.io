@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="styles/news.css">
-    <link rel="stylesheet" type="text/css" href="optimization.html">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
@@ -30,14 +29,21 @@
       <li class="nav-item active" id="news_1">
         <a class="nav-link" href="news.html">Новости</a>
       </li>
+      <li class="nav-item" id="other.html">
+        <a class="nav-link" href="other.html">Так же</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search" id="search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search_1">Поиск</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="search_1" onclick="find()">Поиск</button>
     </form>
   </div>
 </nav>
 </div>
+<br><br><br><br><br>
+<div id="test">
+<div id="test2">
+<div id='search_result'>
 		<div class="card" id="prog">
 		  <div class="card-header" id="title_prog">
 		    Новости
@@ -48,11 +54,7 @@
 		    <a href="#" class="card-link" id="button_1">Подробнее</a>
 		  </div>
 		</div>
-
 		<img src="photos/catalina.png" id="news_aga">
-
-
-
 				<div class="card text-center" id="news">
 		  <div class="card-header">
 		    Новости
@@ -97,10 +99,11 @@
 		    <a href="#" class="card-link" id="button_1">Подробнее</a>
 		  </div>
 		</div>
-
 		<img src="photos/google.png" id="news_aga_1">
-
-
+</div>
+</div>
+</div>
+	<script src="search.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
