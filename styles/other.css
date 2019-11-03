@@ -14,8 +14,8 @@
         {
             background: linear-gradient(to top, #cccccc, white);
             height: 100%;
+            margin-top: -50px;
         }
-
         
 		#top
 		{
@@ -260,8 +260,7 @@
 		    border: 0px solid #666;
 		    height: 22.5%;
 	    }
-
-		
+	    
 		@media (min-width: 0px) and (max-width: 420px)
 		{
 
