@@ -397,6 +397,17 @@
 
 		@media (min-width: 0px) and (max-width: 500px)
 		{
+
+			html, body {
+			  height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
+
 			.news
 			{
 				position: relative;
@@ -480,7 +491,6 @@
 				position: absolute;
 				margin-top: 165%;
 				margin-left: 51.5%;
-				height: 83%;
 				width: 50%;
 			}
 
@@ -647,6 +657,17 @@
 
 		@media (min-width: 300px) and (max-width: 400px)
 		{
+
+			html, body {
+				height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
+
 			#prog
 			{
 				position: absolute;
@@ -673,7 +694,6 @@
 				position: absolute;
 				margin-top: 312%;
 				margin-left: 5%;
-				height: 100%;
 				width: 100%;
 			}
 
@@ -697,6 +717,16 @@
 
 		@media (min-width: 400px) and (max-width: 800px)
 		{
+
+						html, body {
+				height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 			#prog
 			{
 				position: absolute;
@@ -718,7 +748,6 @@
 				position: absolute;
 				margin-top: 195%;
 				margin-left: 51.5%;
-				height: 100%;
 				width: 30%;
 			}
 
@@ -742,6 +771,16 @@
 
 		@media (min-width: 300px) and (max-width: 350px)
 		{
+
+						html, body {
+				height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 			#prog
 			{
 				position: absolute;
@@ -787,6 +826,16 @@
 
 @media (min-width: 600px) and (max-width: 992px)
 	{
+
+					html, body {
+				height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 		#top
 		{
 			position: absolute;
@@ -875,7 +924,6 @@
 	    	position: absolute;
 	    	margin-top: 20%;
 	    	margin-left: 77.5%;
-	    	height: 53.5%;
 	    }
 
 	    #news_w
@@ -913,10 +961,30 @@
 			margin-left: 205px;
 			margin-top: 230%;
 		}
+
+			html, body {
+			  height: 180%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 	}
 
 	@media (min-width: 500px) and (max-width: 650px)
 	{
+
+					html, body {
+				height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 			#prog
 			{
 				position: absolute;
@@ -997,6 +1065,16 @@
 				margin-left: -3%;
 				margin-top: -3%;
 			}
+
+			html, body {
+			  height: 320%;
+			}
+
+			body
+	        {
+	            background: linear-gradient(to top, #cccccc, white);
+	            height: 100%;
+	        }
 	}
 
 
