@@ -132,7 +132,7 @@
 			padding: 0.2%;
 		    background: #f0f0f0;
 		    border: 0px solid #666;
-		    height: 50%;
+		    height: 45%;
 	    }
 
 	    #news_l
@@ -154,9 +154,8 @@
 	    #news_q
 	    {
 	    	position: absolute;
-	    	margin-top: 7%;
+	    	margin-top: 10%;
 	    	margin-left: 81%;
-	    	height: 53.5%;
 	    }
 
 	    #news_w
@@ -247,7 +246,7 @@
 		  position: absolute;
 		  left: 50%;
 		  margin-left: 560px;
-		  top: 50%;
+		  top: 42%;
 		  margin-top: -13px;
 		  border-radius: 10px;
 		}
@@ -258,8 +257,8 @@
 		  left: 0px;
 		  top: 0;
 		  position: relative;
-		  width: 135px;
-		  height: 90px;
+		  width: 0px;
+		  height: 0px;
 		  z-index: 10;
 		  line-height: 40px;
 		  font-weight: bold;
@@ -361,8 +360,38 @@
 
 		.d6
 		{
-		position: ;
 		margin-left: 30%;
+		}
+
+		#menu-button {
+			margin-left: -10px;
+		    background-color: black;
+		    width: 32px;
+		    height: 32px;
+		    cursor: pointer;
+		    margin-left: 100px;
+		}
+
+		#nav {
+		    position: absolute;
+		    background: #DDD;
+		    padding-top: 100%;
+		    left: 100%;
+		    transition: 0.5s;
+		    height: 200px;
+
+		}
+		#nav1.visible {
+		    left: 0;
+		}
+		#nav ul {
+		    margin: 0;
+		    padding: 0;
+		    list-style: none;
+		}
+		#nav li {
+		    margin: 0;
+		    padding: 0;
 		}
 
 
