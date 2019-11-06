@@ -414,6 +414,11 @@
 				margin-top: 50%;
 			}
 
+			.card
+			{
+				margin-top: 20%;
+			}
+
 			#top
 			{
 				height: 10%;
@@ -651,6 +656,10 @@
 				margin-top: -300px;
 				border-radius: 10px;
 			}
+			.card
+			{
+				margin-top: 20%;
+			}
 
 			label
 			{
@@ -719,6 +728,10 @@
 	            background: linear-gradient(to top, #cccccc, white);
 	            height: 100%;
 	        }
+					.card
+					{
+						margin-top: 20%;
+					}
 
 			#prog
 			{
@@ -841,6 +854,10 @@
 	            background: linear-gradient(to top, #cccccc, white);
 	            height: 100%;
 	        }
+					.card
+					{
+						margin-top: 20%;
+					}
 			#prog
 			{
 				position: absolute;
@@ -952,6 +969,10 @@
 				height: 370%;
 			}
 
+			.card
+			{
+				margin-top: 20%;
+			}
 			body
 	        {
 	            background: linear-gradient(to top, #cccccc, white);
@@ -1124,6 +1145,10 @@
 					html, body {
 				height: 320%;
 			}
+			.card
+			{
+				margin-top: 20%;
+			}
 
 			body
 	        {
@@ -1273,6 +1298,10 @@
 				margin-top: -274px;
 				border-radius: 10px;
 			}
+			.card
+			{
+				margin-top: 20%;
+			}
 
 			label
 			{
@@ -1341,6 +1370,10 @@
 	            background: linear-gradient(to top, #cccccc, white);
 	            height: 100%;
 	        }
+					.card
+					{
+						margin-top: 20%;
+					}
 			#prog
 			{
 				position: absolute;
@@ -1438,6 +1471,10 @@
 				margin-left: 30%;
 				margin-top: -274px;
 				border-radius: 10px;
+			}
+			.card
+			{
+				margin-top: 20%;
 			}
 
 			label
