@@ -10,10 +10,10 @@
 		}
 
 		body
-        {
-            background: linear-gradient(to top, #cccccc, white);
-            height: 100%;
-        }
+    {
+      background: linear-gradient(to top, #cccccc, white);
+      height: 100%;
+    }
 		#top
 		{
 			position: absolute;
@@ -107,7 +107,7 @@
 			margin-left: 50px;
 		}
 
-		#li_top:after 
+		#li_top:after
 		{
 		    content: '';
 		    display: block;
@@ -120,7 +120,7 @@
 		    transition: width 0.5s;
 	    }
 
-	    #li_top:hover:after 
+	    #li_top:hover:after
 	    {
 	    	width: 42%;
 	    }
@@ -348,7 +348,7 @@
 		{
 		margin-left: 30%;
 		}
-		
+
 		@media (min-width: 0px) and (max-width: 420px)
 		{
 
@@ -401,7 +401,7 @@
 			#button_2
 			{
 				margin-left: 92%;
-				margin-top: -3%;		
+				margin-top: -3%;
 			}
 
 			#prog
@@ -521,7 +521,7 @@
 				width: 90%;
 			}
 
-			.wrapper1 
+			.wrapper1
 			{
 				left: -250px;
 				margin-top: -7px;
@@ -529,7 +529,7 @@
 				border-radius: 10px;
 			}
 
-			label 
+			label
 			{
 			  display: block;
 			  left: 0px;
@@ -549,7 +549,7 @@
 			  border-radius: 10px;
 			}
 
-			label:after 
+			label:after
 			{
 			  content: "";
 			  width: 35px;
@@ -568,32 +568,32 @@
 			  border-radius: 25px;
 			}
 
-			#checkbox1 
+			#checkbox1
 			{
 			  display: none;
 			}
 
-			:checked + label 
+			:checked + label
 			{
 			  left: 0px;
 			}
 
-			:checked + label:after 
+			:checked + label:after
 			{
 			  left: 10px;
 			  background: #cccccc;
 			  content: "";
 			}
 
-			.d6 
+			.d6
 			{
 				background: #ccffdd;
 			}
-			.d6 form 
+			.d6 form
 			{
 			  height: 42px;
 			}
-			.d6 input 
+			.d6 input
 			{
 			  height: 100%;
 			  width: 50px;
@@ -616,7 +616,7 @@
 			  right: -100px;
 			}
 
-			.d6 button 
+			.d6 button
 			{
 			  background: #ccffdd;
 			  border: none;
@@ -629,7 +629,7 @@
 			  border-radius: 20px;
 			}
 
-			.d6 button:before 
+			.d6 button:before
 			{
 			  content: "🔎";
 			  font-family: FontAwesome;
@@ -703,7 +703,7 @@
 			margin-left: 50px;
 		}
 
-		#li_top:after 
+		#li_top:after
 		{
 		    content: '';
 		    display: block;
@@ -716,7 +716,7 @@
 		    transition: width 0.5s;
 	    }
 
-	    #li_top:hover:after 
+	    #li_top:hover:after
 	    {
 	    	width: 42%;
 	    }
@@ -774,7 +774,7 @@
 	    #news_1
 		{
 			position: absolute;
-			margin-left: 7%;			
+			margin-left: 7%;
 		}
 
 		#prog_2
@@ -817,12 +817,3 @@
 			padding-top: 7%;
 		}
 	}
-		
-
-
-
-
-
-
-
-
