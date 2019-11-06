@@ -20,7 +20,7 @@
             document.getElementById('news_aga').style.background='#737373'
             document.getElementById('top').style.background='linear-gradient(to top, #999999, #999999)'
             document.getElementById('top').style.transition='0.5s'
-            night = true 
+            night = true
         }
         else {
             document.body.style.background='linear-gradient(to top, #cccccc, white)'
