@@ -1,8 +1,15 @@
-stats = [{tags:['каталина', 'fasd'],title:'MacOs Catalina',text:'Поддерживать новую операционную систему из ноутбуков Apple официально будут Macbook Air, Macbook Pro, Mac Mini, iMac, выпущенные с середины 2012 года или позже. А также все iMac Pro, Mac Pro - с середины 2013 года или позднее, Macbook – с начала 2015 года и позднее. Иными словами, все компьютеры, имеющие предустановленную OS X 10.9 Mavericks на борту или более новую. macOS Catalina может быть успешно также установлена и на компьютеры, выпущенные не Apple (что именуется на жаргоне как Hackintosh). Общими минимальными системными требованиями для установки является Intel i5-процессор, и Intel HD Graphics от 4000 и выше, 4 ГБ ОЗУ, и около 20 ГБ места на жестком диске.',link:'catalina_more'},{tags:['suka'],title:'MacOs Catalina',text:'If you’ve been waiting to buy a Nespresso single-serve coffee machine, now is the time to pull the trigger. The Nespresso Vertuoline coffee and espresso maker is now just $100 on Amazon, and we haven’t seen its price this low since November 2018. But if you’re interested, act quickly, as this is a one-day sale.'}]
+stats = [
+    {tags:['каталина', 'fasd'],title:'MacOs Catalina',text:'Поддерживать новую операционную систему из ноутбуков Apple официально будут Macbook Air, Macbook Pro, Mac Mini, iMac, выпущенные с середины 2012 года или позже. А также все iMac Pro, Mac Pro - с середины 2013 года или позднее, Macbook – с начала 2015 года и позднее. Иными словами, все компьютеры, имеющие предустановленную OS X 10.9 Mavericks на борту или более новую. macOS Catalina может быть успешно также установлена и на компьютеры, выпущенные не Apple (что именуется на жаргоне как Hackintosh). Общими минимальными системными требованиями для установки является Intel i5-процессор, и Intel HD Graphics от 4000 и выше, 4 ГБ ОЗУ, и около 20 ГБ места на жестком диске.',link:'catalina_more'},
+    {tags:['sika'],title:'MacOs Catalina',text:'If you’ve been waiting to buy a Nespresso single-serve coffee machine, now is the time to pull the trigger. The Nespresso Vertuoline coffee and espresso maker is now just $100 on Amazon, and we haven’t seen its price this low since November 2018. But if you’re interested, act quickly, as this is a one-day sale.'}
+]
     document.getElementById('search_result')
     search_result = document.getElementById('test2')
     help = search_result
     night = false
+    setInterval(function () {
+    	document.getElementById('chat').style.left=document.documentElement.clientWidth-50+'px'
+    },50)
+
     document.body.onkeydown = function (e) {
         if (e.key == 'Enter') {
             return false
@@ -60,15 +67,3 @@ stats = [{tags:['каталина', 'fasd'],title:'MacOs Catalina',text:'Под�
         	}
     	}
     }
-
-
-
-
-
-
-
-
-
-
-
-
