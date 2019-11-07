@@ -6,9 +6,27 @@ stats = [
     search_result = document.getElementById('test2')
     help = search_result
     night = false
+    chat = false
+    chatopen = 25
     setInterval(function () {
-    	document.getElementById('chat').style.left=document.documentElement.clientWidth-50+'px'
-    },50)
+        if (chat) {
+            document.getElementById('chaticon').style.left=document.documentElement.clientWidth-50-400+'px'
+            document.getElementById('chat').style.left=document.documentElement.clientWidth-400+16*chatopen+'px'
+            if (chatopen != 0) {
+                chatopen -= 1
+            }
+        }
+        else {
+            document.getElementById('chaticon').style.left=document.documentElement.clientWidth-50-400+16*chatopen+'px'
+            document.getElementById('chat').style.left=document.documentElement.clientWidth-400+16*chatopen+'px'
+            if (chatopen != 25) {
+                chatopen += 1
+            }
+            else {
+                document.getElementById('chat').style.display='none'
+            }
+        }
+    },1000/60)
 
     document.body.onkeydown = function (e) {
         if (e.key == 'Enter') {
@@ -20,12 +38,22 @@ stats = [
             find()
         }
     })
+    document.getElementById('chaticon').addEventListener('click', function () {
+        if (chat) {
+            chat = false
+        }
+        else {
+            document.getElementById('chat').style.left=document.documentElement.clientWidth+'px'
+            document.getElementById('chat').style.display=''
+            chat = true
+        }
+    })
     function find() {
-    	if (typeof s != 'undefined') {
-    		if (s.length == 1 & s[0] == '') {
-        		document.getElementById('test2').remove()
-        	}
-    	}
+        if (typeof s != 'undefined') {
+            if (s.length == 1 & s[0] == '') {
+                document.getElementById('test2').remove()
+            }
+        }
         s = document.getElementById('search').value.split(' ')
         statsDraw=[]
         i = 0
@@ -47,23 +75,24 @@ stats = [
         search_result.remove()
         search_result = document.createElement('div')
         if (s.length == 1 & s[0] == '') {
-        	document.getElementById('test').prepend(help)
+            document.getElementById('test').prepend(help)
         }
         else {
-        	document.getElementById('test').prepend(search_result)
-        	i = 0
-        	ei = 0
-        	while (i < statsDraw.length) {
-        	    if (statsDraw[i][0] > 0) {
-        	        search_result.insertAdjacentHTML("afterbegin", '<div id="search_result" class="card"><div class="card-body" id="back_prog"><h5 class="card-title">'+stats[statsDraw[i][1]]['title']+'</h5><p class="card-text">'+stats[statsDraw[i][1]]['text']+'</p><a href="'+stats[statsDraw[i][1]]['link']+'.html" class="card-link" id="button_1">Подробнее</a></div></div>')
-        	    }
-        	    else {
-        	    	ei++
-        	    }
-        	    i++
-        	}
-        	if (ei == statsDraw.length) {
-        		search_result.insertAdjacentHTML("afterbegin", '<div id="search_result" class="card"><div class="card-body" id="back_prog"><p class="card-text">По вашему запросу ничего не найдено :(</p></div></div>')
-        	}
-    	}
+            document.getElementById('test').prepend(search_result)
+            i = 0
+            ei = 0
+            while (i < statsDraw.length) {
+                if (statsDraw[i][0] > 0) {
+                    search_result.insertAdjacentHTML("afterbegin", '<div id="search_result" class="card"><div class="card-body" id="back_prog"><h5 class="card-title">'+stats[statsDraw[i][1]]['title']+'</h5><p class="card-text">'+stats[statsDraw[i][1]]['text']+'</p><a href="'+stats[statsDraw[i][1]]['link']+'.html" class="card-link" id="button_1">Подробнее</a></div></div>')
+                }
+                else {
+                    ei++
+                }
+                i++
+            }
+            if (ei == statsDraw.length) {
+                search_result.insertAdjacentHTML("afterbegin", '<div id="search_result" class="card"><div class="card-body" id="back_prog"><p class="card-text">По вашему запросу ничего не найдено :(</p></div></div>')
+            }
+        }
     }
+    
