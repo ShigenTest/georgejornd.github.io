@@ -6,7 +6,7 @@
 		}
 
 		html, body {
-		  height: 150%;
+		  height: 170%;
 		}
 
 		body
@@ -157,7 +157,6 @@
 	    	position: absolute;
 	    	margin-top: 5.4%;
 	    	margin-left: 81%;
-	    	height: 53.5%;
 	    }
 
 	    #news_w
@@ -209,7 +208,7 @@
 	    	font-size: 10px;
 	    }
 
-	    #prog_1
+	    #news_q
 	    {
 	    	position: absolute;
 			margin-top: 35%;
@@ -425,7 +424,6 @@
 				position: absolute;
 				margin-top: 165%;
 				margin-left: 51.5%;
-				height: 83%;
 				width: 50%;
 			}
 
@@ -459,7 +457,7 @@
 				transition: 1s;
 			}
 
-			#prog_1
+			#news_q
 			{
 				position: absolute;
 				margin-top: 465%;
@@ -475,7 +473,7 @@
 				width: 90%;
 				height: 40%;
 			}
-						#prog
+			#prog
 			{
 				position: absolute;
 				margin-top: 25%;
@@ -501,7 +499,6 @@
 				position: absolute;
 				margin-top: 312%;
 				margin-left: 5%;
-				height: 100%;
 				width: 100%;
 			}
 
@@ -753,7 +750,6 @@
 	    	position: absolute;
 	    	margin-top: 20%;
 	    	margin-left: 77.5%;
-	    	height: 53.5%;
 	    }
 
 	    #news_w
@@ -784,7 +780,7 @@
 			margin-top: -6.5%;
 		}
 
-		#prog_1
+		#news_q
 		{
 			position: absolute;
 			margin-top: 105%;
