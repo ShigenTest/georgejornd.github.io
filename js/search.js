@@ -19,6 +19,7 @@ stats = [
         else {
             document.getElementById('chaticon').style.left=document.documentElement.clientWidth-50-400+16*chatopen+'px'
             document.getElementById('chat').style.left=document.documentElement.clientWidth-400+16*chatopen+'px'
+            document.getElementById('chat').style.transition='0s'
             if (chatopen != 25) {
                 chatopen += 1
             }
