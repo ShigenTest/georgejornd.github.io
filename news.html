@@ -15,35 +15,39 @@
 <div class="clear"></div>
 <div class="wrapper">
 	<div class="top_menu">
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
-  <a class="navbar-brand" href="#" id="name">Jornd News</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="button_2">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item" id="news_1">
-        <a class="nav-link active" href="news.html">Новости</a>
-      </li>
-      <div class="wrapper1">
-  		<input type="checkbox" id="checkbox1"/>
-  	<label for="checkbox1"></label>
-</div>
-    </ul>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+				<a class="navbar-brand" href="#"><img src="source/symbols.png" alt="">Jornd News</a>
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation" id="buter">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse" id="navbarsExample03">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Главная</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="news.html">Новости</a>
+						</li>
+						<li class="nav-item dropdown">
+							<form class="form-inline my-2 my-lg-0">
+									<div class="d6">
+										<form>
+										<input type="text" placeholder="Поиск" id="search">
+										<button type="submit"></button>
+										</form>
+								</div>
+							</form>
+						</li>
+		     <li class="nav-item dropdown">
+						<div class="wrapper">
+							<input type="checkbox" id="checkbox"/>
+							<label for="checkbox"></label>
+						</div>
+				 </li>
 
-    <form class="form-inline my-2 my-lg-0">
-     	<div class="d6">
-	<form>
-  <input type="text" placeholder="Искать здесь..." id="search">
-  <button type="submit"></button>
-</form>
-	</div>
-    </form>
-  </div>
-</nav>
+					</ul>
+				</div>
+			</nav>
 </div>
 <br><br><br><br><br>
 <div id="test">
@@ -94,9 +98,6 @@
 </div>
 </div>
 
-<div style="position: fixed; float: right; width: 50px; height: 100%; top: 0px; z-index: 2" id='chaticon'></div>
-<div id="chat" style="position: fixed; float: right; width: 400px; height: 100%; top: 0px; z-index: 2; background: white; display: none"></div>
-
 	<script src="js/search.js"></script>
 	<script src="js/darktheme.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -104,3 +105,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
 </body>
 </html>
+
+<div style="position: fixed; float: right; width: 50px; height: 100%; top: 0px; z-index: 2" id='chaticon'></div>
+<div id="chat" style="position: fixed; float: right; width: 400px; height: 100%; top: 0px; z-index: 2; background: white; display: none"></div>

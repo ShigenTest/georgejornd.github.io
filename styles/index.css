@@ -9,10 +9,10 @@
 		}
 
 		body
-        {
-            background: linear-gradient(to top, #cccccc, white);
-            height: 100%;
-        }
+    {
+      background: linear-gradient(to top, #4a4f5e, white);
+    	height: 100%;
+  	}
 
 		#top
 		{
@@ -129,7 +129,7 @@
 	    	position: absolute;
 	    	margin-top: 8%;
 	    	margin-left: 53%;
-			padding: 0.2%;
+			  padding: 0.2%;
 		    background: #f0f0f0;
 		    border: 0px solid #666;
 		    height: 45%;
@@ -242,162 +242,125 @@
 	    	position: absolute;
 	    }
 
-	    .wrapper1 {
-		  position: absolute;
-		  left: 50%;
-		  margin-left: 560px;
-		  top: 42%;
-		  margin-top: -13px;
-		  border-radius: 10px;
-		}
+			.wrapper
+			{
+				margin-top: 0;
+				margin-left: 10px;
+				z-index: 2;
+			}
 
-		label
-		{
-		  display: block;
-		  left: 0px;
-		  top: 0;
-		  position: relative;
-		  width: 0px;
-		  height: 0px;
-		  z-index: 10;
-		  line-height: 40px;
-		  font-weight: bold;
-		  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  cursor: pointer;
-		  border-radius: 10px;
-		}
+			label
+			{
+			  display: block;
+			  left: 0px;
+			  top: 0;
+			  position: relative;
+			  z-index: 10;
+			  line-height: 40px;
+			  font-weight: bold;
+			  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  cursor: pointer;
+			  border-radius: 10px;
+			}
 
-		label:after
-		{
-		  content: "";
-		  width: 35px;
-		  height: 35px;
-		  position: absolute;
-		  left: 0px;
-		  top: 0px;
-		  display: block;
-		  background: #4d4d4d;
-		  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		  cursor: pointer;
-		  border-radius: 25px;
-		}
+			label:after
+			{
+			  content: "";
+			  width: 35px;
+			  height: 35px;
+			  position: absolute;
+			  left: 0px;
+			  top: 0px;
+			  display: block;
+			  background: #4d4d4d;
+			  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -ms-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+			  cursor: pointer;
+			  border-radius: 25px;
+			}
 
-		#checkbox1
-		{
-		  display: none;
-		}
+			#checkbox
+			{
+			  display: none;
+			}
 
-		:checked + label
-		{
-		  left: 0px;
-		}
+			:checked + label
+			{
+			  left: 0px;
+			}
 
-		:checked + label:after
-		{
-		  left: 10px;
-		  background: #cccccc;
-		  content: "";
-		}
+			:checked + label:after
+			{
+			  left: 10px;
+			  background: #cccccc;
+			  content: "";
+			}
 
-		.d6
-		{
-			background: #ccffdd;
-		}
-		.d6 form
-		{
-		  height: 42px;
-		}
-		.d6 input
-		{
-		  height: 100%;
-		  width: 50px;
-		  padding: 0 42px 0 15px;
-		  border: none;
-		  border-bottom: 2px solid transparent;
-		  outline: none;
-		  background: transparent;
-		  transition: .4s cubic-bezier(0, 0.8, 0, 1);
-		  position: absolute;
-		  z-index: 2;
-		  right: 120px;
-		  top: 10px;
-		}
+			.d6
+			{
+				background: #ccffdd;
+				border-radius: 20px;
+				margin-top: 10px;
+				margin-left: 850px;
+			}
+			.d6 form
+			{
+			  height: 42px;
+			}
+			.d6 input
+			{
+			  height: 100%;
+			  width: 50px;
+			  padding: 0 42px 0 15px;
+			  border: none;
+			  border-bottom: 2px solid transparent;
+			  outline: none;
+			  background: transparent;
+			  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+			  position: absolute;
+			  z-index: 2;
+
+			}
+
+			.d6 input:focus {
+			  width: 300px;
+			  z-index: 1;
+			  top: 15px;
+			  right: -30px;
+			}
+
+			.d6 button
+			{
+			  background: #ccffdd;
+			  border: none;
+			  height: 33px;
+			  width: 33px;
+			  cursor: pointer;
+			  border-radius: 20px;
+			}
+
+			.d6 button:before
+			{
+			  content: "🔎";
+			  font-family: FontAwesome;
+			  font-size: 16px;
+			  color: #ccffdd;
+			}
+
+			#other
+			{
+				margin-left: 120px;
+				margin-top: -40px;
+			}
 
 
-		.d6 input:focus {
-		  width: 300px;
-		  z-index: 1;
-		  top: 10px;
-		}
-		.d6 button
-		{
-		  background: #ccffdd;
-		  border: none;
-		  height: 37px;
-		  width: 37px;
-		  position: absolute;
-		  top: 40px;
-		  right: 120px;
-		  cursor: pointer;
-		  border-radius: 20px;
-		}
-
-		.d6 button:before
-		{
-		  content: "🔎";
-		  font-family: FontAwesome;
-		  font-size: 16px;
-		  color: #ccffdd;
-		}
-
-		.d6
-		{
-		margin-left: 30%;
-		}
-
-		#menu-button {
-			margin-left: -10px;
-		    background-color: black;
-		    width: 32px;
-		    height: 32px;
-		    cursor: pointer;
-		    margin-left: 100px;
-		}
-
-		#nav {
-		    position: absolute;
-		    background: #DDD;
-		    padding-top: 100%;
-		    left: 100%;
-		    transition: 0.5s;
-		    height: 200px;
-
-		}
-		#nav1.visible {
-		    left: 0;
-		}
-		#nav ul {
-		    margin: 0;
-		    padding: 0;
-		    list-style: none;
-		}
-		#nav li {
-		    margin: 0;
-		    padding: 0;
-		}
-
-		.nav-link
-		{
-			z-index: 1;
-		}
 
 
 		@media (min-width: 0px) and (max-width: 500px)
@@ -408,10 +371,10 @@
 			}
 
 			body
-	        {
-	            background: linear-gradient(to top, #cccccc, white);
-	            height: 100%;
-	        }
+	    {
+		    background: linear-gradient(to top, #cccccc, white);
+		    height: 100%;
+	    }
 
 			.news
 			{
@@ -525,12 +488,11 @@
 				width: 90%;
 			}
 
-			.wrapper1
+			.wrapper
 			{
-				position: relative;
-				margin-left: 30%;
-				margin-top: -274px;
-				border-radius: 10px;
+				margin-top: -100px;
+				margin-left: 290px;
+				z-index: 2;
 			}
 
 			label
@@ -570,7 +532,7 @@
 			  border-radius: 25px;
 			}
 
-			#checkbox1
+			#checkbox
 			{
 			  display: none;
 			}
@@ -589,6 +551,7 @@
 
 			.d6
 			{
+				margin-left: 90;
 				background: #ccffdd;
 			}
 			.d6 form
@@ -605,28 +568,29 @@
 			  outline: none;
 			  background: transparent;
 			  transition: .4s cubic-bezier(0, 0.8, 0, 1);
+				margin-top: -25px;
+				margin-right: -100px;
 			  position: absolute;
 			  z-index: 2;
-			  right: 80px;
-			  top: 25px;
+
 			}
 
 			.d6 input:focus {
 			  width: 300px;
 			  z-index: 1;
 			  top: 15px;
-			  right: -100px;
+			  right: -30px;
 			}
 
 			.d6 button
 			{
 			  background: #ccffdd;
 			  border: none;
-			  height: 37px;
-			  width: 37px;
+			  height: 33px;
+			  width: 33px;
 			  position: absolute;
-			  top: 25px;
-			  right: 80px;
+				margin-top: -70px;
+				margin-right: -90px;
 			  cursor: pointer;
 			  border-radius: 20px;
 			}
@@ -639,28 +603,25 @@
 			  color: #ccffdd;
 			}
 
-			.d6
-			{
-			margin-left: 30%;
-			}
-
 			#other
 			{
 				margin-left: 120px;
 				margin-top: -40px;
 			}
+
+			#buter
+			{
+				position: absolute;
+				z-index: 5;
+				margin-left: 340px;
+			}
+
+
 			}
 
 		@media (min-width: 400px) and (max-width: 800px)
 		{
 
-			.wrapper1
-			{
-				position: relative;
-				margin-left: 30%;
-				margin-top: -300px;
-				border-radius: 10px;
-			}
 			.card
 			{
 				margin-top: 20%;
@@ -706,6 +667,7 @@
 			#checkbox1
 			{
 			  display: none;
+				z-index: 2;
 			}
 
 			:checked + label
@@ -719,6 +681,7 @@
 			  background: #cccccc;
 			  content: "";
 			}
+
 		}
 
 		@media (min-width: 300px) and (max-width: 400px)
@@ -783,13 +746,6 @@
 				width: 90%;
 			}
 
-			.wrapper1
-			{
-				position: relative;
-				margin-left: 30%;
-				margin-top: -274px;
-				border-radius: 10px;
-			}
 
 			label
 			{
@@ -901,14 +857,6 @@
 				margin-top: 138%;
 				margin-left: 5%;
 				width: 90%;
-			}
-
-			.wrapper1
-			{
-				position: relative;
-				margin-left: 33%;
-				margin-top: -290px;
-				border-radius: 10px;
 			}
 
 			label
@@ -1029,6 +977,7 @@
 				margin-left: 30%;
 				margin-top: -240px;
 				border-radius: 10px;
+				z-index: 2;
 			}
 
 			label
@@ -1302,6 +1251,7 @@
 				margin-left: 30%;
 				margin-top: -274px;
 				border-radius: 10px;
+				z-index: 2;
 			}
 			.card
 			{
@@ -1465,10 +1415,10 @@
 			}
 
 			body
-	        {
-	            background: linear-gradient(to top, #cccccc, white);
-	            height: 100%;
-	        }
+	    {
+	      background: linear-gradient(to top, #cccccc, white);
+	      height: 100%;
+	    }
 
 			.wrapper1
 			{
@@ -1476,6 +1426,7 @@
 				margin-left: 30%;
 				margin-top: -274px;
 				border-radius: 10px;
+				z-index: 2
 			}
 			.card
 			{
