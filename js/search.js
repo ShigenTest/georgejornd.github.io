@@ -31,20 +31,6 @@ help = [document.getElementById('test2'), document.getElementById('test2n')]
                 document.getElementById('chat').style.display='none'
             }
         }
-        if (pagego != 20 & pagewas < page) {
-            pagego+=1
-            pagegowas-=pagego
-            document.getElementById('test').style.marginLeft=document.documentElement.clientWidth*pagegowas/210+'px'
-        }
-        if (pagego != 20 & pagewas > page) {
-            pagego+=1
-            pagegowas-=pagego
-            document.getElementById('test').style.marginLeft=-document.documentElement.clientWidth*pagegowas/210+'px'
-        }
-        if (pagego == 20) {
-            pagewas = page
-            pagegowas = 210
-        }
     },1000/60)
 
     document.body.onkeydown = function (e) {
@@ -62,51 +48,7 @@ help = [document.getElementById('test2'), document.getElementById('test2n')]
             document.getElementById('chat').style.display=''
             chat = true
         }
-    })
-    document.getElementById('href-1').addEventListener('click', function () {
-        if (page!=1) {
-            if (!searchnow) {
-                document.getElementById('test2n').remove()
-            }
-            if (pagego != 20) {
-                pagewas = page
-            }
-            document.getElementById('home').className='nav-item active'
-            document.getElementById('home').style.cursor='default'
-            document.getElementById('news_1').style.cursor='pointer'
-            document.getElementById('news_1').className='nav-item'
-            search_result.remove()
-            search_result = document.createElement('div')
-            searchnow = false
-            document.getElementById('test').prepend(help[0])
-            page = 1
-            document.getElementById('test').style.marginLeft=document.documentElement.clientWidth+'px'
-            pagego = 0
-            pagegowas = 210
-        }
-    })
-    document.getElementById('href-2').addEventListener('click', function () {
-        if (page!=2) {
-            if (!searchnow) {
-                document.getElementById('test2').remove()
-            }
-            if (pagego != 20) {
-                pagewas = page
-            }
-            document.getElementById('news_1').className='nav-item active'
-            document.getElementById('news_1').style.cursor='default'
-            document.getElementById('home').style.cursor='pointer'
-            document.getElementById('home').className='nav-item'
-            search_result.remove()
-            search_result = document.createElement('div')
-            searchnow = false
-            document.getElementById('test').prepend(help[1])
-            page = 2
-            document.getElementById('test').style.marginLeft=-document.documentElement.clientWidth+'px'
-            pagego = 0
-            pagegowas = 210
-        }
-    })
+    }
     function find() {
         if (!searchnow) {
             search_result = document.getElementById('test2')
