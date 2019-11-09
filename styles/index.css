@@ -13,9 +13,7 @@
       background: linear-gradient(to top, #cccccc, white);
     	height: 100%;
   	}
-
-
-
+		
 		#all
 		{
 			position: absolute;
@@ -349,13 +347,13 @@
 				margin-left: 120px;
 				margin-top: -40px;
 			}
-		
+
 
 		@media (min-width: 0px) and (max-width: 500px)
 		{
 
 			html, body {
-			  height: 320%;
+			  height: 290%;
 			}
 
 			body
@@ -581,6 +579,11 @@
 			{
 				z-index: 5;
 			}
+
+			#test
+			{
+				margin-top: -150px;
+			}
 			}
 
 		@media (min-width: 400px) and (max-width: 800px)
@@ -651,15 +654,6 @@
 		@media (min-width: 300px) and (max-width: 400px)
 		{
 
-			html, body {
-				height: 320%;
-			}
-
-			body
-	        {
-	            background: linear-gradient(to top, #cccccc, white);
-	            height: 100%;
-	        }
 					.card
 					{
 						margin-top: 20%;
@@ -765,15 +759,6 @@
 		@media (min-width: 400px) and (max-width: 800px)
 		{
 
-						html, body {
-				height: 320%;
-			}
-
-			body
-	        {
-	            background: linear-gradient(to top, #cccccc, white);
-	            height: 100%;
-	        }
 					.card
 					{
 						margin-top: 20%;
@@ -878,7 +863,7 @@
 		{
 
 						html, body {
-				height: 370%;
+				height: 320%;
 			}
 
 			.card

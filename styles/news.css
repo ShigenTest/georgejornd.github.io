@@ -354,6 +354,17 @@
 		@media (min-width: 0px) and (max-width: 500px)
 		{
 
+			html, body {
+				height: 290%;
+			}
+
+			body
+			{
+				background: linear-gradient(to top, #cccccc, white);
+				height: 100%;
+			}
+
+
 			#news_aga
 			{
 				position: absolute;
@@ -595,6 +606,11 @@
 			#buter
 			{
 				z-index: 5;
+			}
+
+			#test
+			{
+				margin-top: -70px;
 			}
 
 		}
