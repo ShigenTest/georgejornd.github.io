@@ -394,6 +394,11 @@
 		    padding: 0;
 		}
 
+		.nav-link
+		{
+			z-index: 1;
+		}
+
 
 		@media (min-width: 0px) and (max-width: 500px)
 		{
