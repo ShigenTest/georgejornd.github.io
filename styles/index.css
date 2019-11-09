@@ -14,15 +14,7 @@
     	height: 100%;
   	}
 
-		#top
-		{
-			position: absolute;
-			margin-top: -2%;
-			height: 14%;
-			width: 100%;
-			border-radius: 7px;
-			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
-		}
+
 
 		#all
 		{
@@ -358,6 +350,11 @@
 				margin-top: -40px;
 			}
 
+			#test
+			{
+				margin-top: -150px;
+			}
+
 		@media (min-width: 0px) and (max-width: 500px)
 		{
 
@@ -380,11 +377,6 @@
 			.card
 			{
 				margin-top: 20%;
-			}
-
-			#top
-			{
-				height: 10%;
 			}
 
 			#search
@@ -683,11 +675,6 @@
 				margin-top: 25%;
 				margin-left: 5%;
 				width: 90%;
-			}
-
-			#top
-			{
-				height: 10%;
 			}
 
 			#news
@@ -1085,15 +1072,6 @@
 	            background: linear-gradient(to top, #cccccc, white);
 	            height: 100%;
 	        }
-		#top
-		{
-			position: absolute;
-			margin-top: -2%;
-			height: 14%;
-			width: 100%;
-			border-radius: 7px;
-			box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
-		}
 
 		#prog
 		{
