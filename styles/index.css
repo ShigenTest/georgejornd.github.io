@@ -338,7 +338,6 @@
 
 			.d6 button
 			{
-			  background: #ccffdd;
 			  border: none;
 			  height: 33px;
 			  width: 33px;
@@ -351,7 +350,6 @@
 			  content: "🔎";
 			  font-family: FontAwesome;
 			  font-size: 16px;
-			  color: #ccffdd;
 			}
 
 			#other
@@ -563,7 +561,6 @@
 			  transition: .4s cubic-bezier(0, 0.8, 0, 1);
 			  position: absolute;
 			  z-index: 2;
-
 			}
 
 			.d6 input:focus {
